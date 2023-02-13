@@ -9,6 +9,7 @@ ENV PYTHONUNBUFFERED 1
 
 # Set work directory (OPT is UIX Optional Folder where we  download and run allexternal or 3rd party applications, similar to program files on windows)
 
+
 RUN mkdir -p /opt/services/weather_restapi/src
 
 WORKDIR /opt/services/weather_restapi/src
@@ -25,12 +26,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 #
 COPY . /opt/services/weather_restapi/src
 
+CMD ["python","manage.py","runserver","0.0.0.0:8000"]
 
-
-# This Command Binds Django Appliation to Gunicorn Web Server
-# 
-CMD ["python", "manage.py", "makemigrations"]
-CMD ["python", "manage.py", "migrate"]
-CMD ["gunicorn", "--bind", ":8001", "--workers", "1", "weather_restapi.wsgi:application"]
-
-EXPOSE 8001
