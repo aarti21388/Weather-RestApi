@@ -18,7 +18,7 @@ This project shows how to build a basic data access application and process a va
    ```
 
 ## 
-##. Run python script to read Wx_data folder for weater data file use 
+## Run python script to read Wx_data folder for weater data file use 
 
    ```
    python manage.py runscript import_weather
