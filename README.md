@@ -1,7 +1,7 @@
 
 # Weather Data API
 
-This project shows how to build a basic data access application that continuously runs in the background, processing a variety of weather data from different station including weather date,maximum temperature,minimum temperature and precipitation 
+This project shows how to build a basic data access application and process a variety of weather data from different station including weather date,maximum temperature,minimum temperature and precipitation. Use postgres database for creating a database schema. And docker-compose.yaml file to run container for postgres.
 
 ## 
 ## Getting Started 
