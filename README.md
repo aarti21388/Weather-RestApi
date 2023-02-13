@@ -46,3 +46,10 @@ This project shows how to build a basic data access application that continuousl
    ```
    python manage.py test core_app
    ```
+7 To Deploy your First Rest API with AWS we can use API Gateway
+   ```
+   1. It is fully managed service to publish, maintain , monitor and secure API
+   ```
+   ```
+   2. To access data from your backend servies we can use Lambda or EC2
+   ```
