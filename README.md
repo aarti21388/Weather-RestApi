@@ -21,13 +21,13 @@ This project shows how to build a basic data access application using Django RES
 ## Run python script to read Wx_data folder for weater data file use 
 
    ```
-   python manage.py runscript import_weather
+   python manage.py runscript -v 2 import_weather
    ```
 
    Run python script to calculating statistics.
 
    ```
-   python manage.py runscript staticals_data
+  python manage.py runscript -v 2 staticals_data
    ```
 
 ## 
