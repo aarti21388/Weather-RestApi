@@ -59,7 +59,7 @@ This project shows how to build a basic data access application using Django RES
    python manage.py test core_app
    ```
 ## 
-## To Deploy your First Rest API with AWS we can use API Gateway
+## To Deploy your First Rest API with AWS we can use Amazon ECS.
    ```
    1. It is fully managed service to publish, maintain , monitor and secure API
    ```
