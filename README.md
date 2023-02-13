@@ -17,19 +17,21 @@ This project shows how to build a basic data access application and process a va
    cd Weather_ReatApi
    ```
 
-3. Run python script to read Wx_data folder for weater data file use 
+## 
+##. Run python script to read Wx_data folder for weater data file use 
 
    ```
    python manage.py runscript import_weather
    ```
 
-4. Run python script to calculating statistics.
+   Run python script to calculating statistics.
 
    ```
    python manage.py runscript staticals_data
    ```
 
-5  Use these endpoints to return a JSON-formatted response with a representation of the ingested/calculated
+## 
+##  Use these endpoints to return a JSON-formatted response with a representation of the ingested/calculated
    
    ```
    http://127.0.0.1:8000/ [swagger view]
@@ -44,11 +46,13 @@ This project shows how to build a basic data access application and process a va
    http://127.0.0.1:8000/api/weather/stats/USC00110187/1994/ [filter the response by year and station ID]
    ```
       
- 6 To run test
+## 
+## To run test
    ```
    python manage.py test core_app
    ```
-7 To Deploy your First Rest API with AWS we can use API Gateway
+## 
+## To Deploy your First Rest API with AWS we can use API Gateway
    ```
    1. It is fully managed service to publish, maintain , monitor and secure API
    ```
