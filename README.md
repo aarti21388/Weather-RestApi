@@ -6,8 +6,10 @@ This project shows how to build a basic data access application that continuousl
 ## 
 ## Getting Started 
 
-1. Install all library use Pip install -r requirements.txt
-
+1. Install all library use
+   ```
+   Pip install -r requirements.txt
+   ```
 2. Clone this repository
 
    ```
