@@ -2,8 +2,8 @@ import os,time,shutil
 from core_app.weather import Weather
 
 
-start_time = time.time()
-print("Weather data reading...")
+start_time = time.time()  # staart the time
+print("Weather data is start loading")
 path=f"{os.getcwd()}/wx_data"
 
 def read_text_file(files):
