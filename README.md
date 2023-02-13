@@ -16,7 +16,14 @@ This project shows how to build a basic data access application using Django RES
    git clone git@github.com:aarti21388/Weather-RestApi.git
    cd Weather_ReatApi
    ```
-
+## 
+##  use inspectdb. Introspects the database tables in the database pointed-to by the DATABASE_NAME setting and outputs a Django model module (a models.py file) to standard output
+   ```
+   python manage.py inspectdb --database LOANS weather > core_app/weather.py
+   ```
+   ```
+   python manage.py inspectdb --database LOANS statistic > core_app/statics.py
+   ```
 ## 
 ## Run python script to read Wx_data folder for weater data file use 
 
