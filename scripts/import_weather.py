@@ -1,6 +1,9 @@
 import os,time,shutil
 from core_app.weather import Weather
 
+def run():
+        print ("I am a script for storing weather data to postgres database")
+
 
 start_time = time.time()  # staart the time
 print("Weather data is start loading")
