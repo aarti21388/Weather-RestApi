@@ -53,3 +53,15 @@ This project shows how to build a basic data access application that continuousl
    ```
    2. To access data from your backend servies we can use Lambda or EC2
    ```
+   ```
+   3.Amazon RDS for the database. Amazon RDS supports 6 familiar engines, including 3 open source databases: MySQL, PostgreSQL, and MariaDB.
+   ```
+   ```
+   4.To schedule version of your data ingestion code we can use AWS Glue
+   ```
+   ```
+   5. We can use cloud watch event rule to trigger the lambda function using cron job to run everyday 
+      (a) lambda function gets the report of all ec2 instances in the account.
+      (b) uploads the report to the s3 bucket 
+   ```
+   
