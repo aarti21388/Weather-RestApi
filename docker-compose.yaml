@@ -1,0 +1,18 @@
+version: '3.6'
+services:
+  database:
+    image: 'postgres:latest'
+    restart: always
+    volumes:
+    #if container died it will starore data recide in host local machine
+      - ./db-data:/var/lib/postgresql/data
+    ports:
+      - 6534:5432
+    environment:
+      POSTGRES_USER: [database user]
+      POSTGRES_PASSWORD: [database password]
+      POSTGRES_DB: postgres2  
+    logging:
+      options:
+        max-size: 10m
+        max-file: "3"  
