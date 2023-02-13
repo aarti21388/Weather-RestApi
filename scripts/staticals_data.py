@@ -1,5 +1,8 @@
 from django.db import connections
 
+def run():
+        print ("I am a script for calculating statistic data")
+
 with connections['LOANS'].cursor() as cursor:           
 
     cursor.execute('''INSERT INTO statistic 
