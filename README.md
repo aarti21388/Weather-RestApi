@@ -28,9 +28,18 @@ This project shows how to build a basic data access application that continuousl
    ```
 
 5  Use these endpoints to return a JSON-formatted response with a representation of the ingested/calculated
-'''
-http://127.0.0.1:8000/ [swagger view]
-http://127.0.0.1:8000/api/weather/ [weather data paginated]
-http://127.0.0.1:8000/api/weather/stats/ [statistics data paginated]
-http://127.0.0.1:8000/api/weather/stats/USC00110187/1994/ [filter the response by year and station ID]
-'''
+   
+   ```
+   http://127.0.0.1:8000/ [swagger view]
+   ```
+   ```
+   http://127.0.0.1:8000/ [swagger view]](http://127.0.0.1:8000/api/weather/ [weather data paginated])
+   ```
+   ```
+    http://127.0.0.1:8000/api/weather/stats/ [statistics data paginated]
+   ```
+   ```
+   http://127.0.0.1:8000/api/weather/stats/USC00110187/1994/ [filter the response by year and station ID]
+   ```
+      
+     
