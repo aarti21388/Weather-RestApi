@@ -61,7 +61,14 @@ This project shows how to build a basic data access application using Django RES
 ## 
 ## To Deploy your First Rest API with AWS we can use Amazon ECS.
    ```
-   1. It is fully managed service to publish, maintain , monitor and secure API
+   1. 1) Launching an EC2 instance
+      2) Connecting the EC2 instance on local machine
+      3) Configure EC2 instance (Install Apache2, pip, apache module for wsgi, and virtual environment)
+      4) Clone the Django Application Repository.
+      5) Create a virtual Environment
+      6) Install the necessary packages
+      7)Test run the application
+      8) Configure Apache to point to our django application
    ```
    ```
    2. To access data from your backend servies we can use Lambda or EC2
