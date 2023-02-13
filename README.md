@@ -33,7 +33,7 @@ This project shows how to build a basic data access application that continuousl
    http://127.0.0.1:8000/ [swagger view]
    ```
    ```
-   http://127.0.0.1:8000/ [swagger view]](http://127.0.0.1:8000/api/weather/ [weather data paginated])
+   http://127.0.0.1:8000/api/weather/ [weather data paginated])
    ```
    ```
     http://127.0.0.1:8000/api/weather/stats/ [statistics data paginated]
@@ -42,4 +42,7 @@ This project shows how to build a basic data access application that continuousl
    http://127.0.0.1:8000/api/weather/stats/USC00110187/1994/ [filter the response by year and station ID]
    ```
       
-     
+ 6 To run test
+   ```
+   python manage.py test core_app
+   ```
