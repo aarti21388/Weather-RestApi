@@ -1,0 +1,16 @@
+2023-02-14,19:40:19.897 INFO {import_weather} [<module>] Weather data reading... 1676432419.8975422
+2023-02-14,19:40:19.898 INFO {import_weather} [read_text_file] C:\Users\Admin\Desktop\Project\Weather-RestApi/wx_data/dwd2342.txt
+2023-02-14,19:40:20.519 INFO {import_weather} [<module>]  end time in 1676432420.519964
+2023-02-14,19:40:20.519 INFO {import_weather} [<module>]  Total time 0.6224217414855957 and file count is 1
+2023-02-14,19:42:37.131 INFO {import_weather} [<module>] Weather data reading... 1676432557.1319764
+2023-02-14,19:42:37.131 INFO {import_weather} [read_text_file] C:\Users\Admin\Desktop\Project\Weather-RestApi/wx_data/asa13.txt
+2023-02-14,19:42:37.719 INFO {import_weather} [main]  end time in 1676432557.7197952
+2023-02-14,19:42:37.719 INFO {import_weather} [main]  Total time 0.5878188610076904 and file count is 1
+2023-02-14,19:46:04.061 INFO {staticals_data} [<module>] calculate statistic data 0.7187237739562988 
+2023-02-14,19:47:32.919 INFO {staticals_data} [<module>] calculate statistic data 0.3937351703643799 
+2023-02-14,19:49:24.585 INFO {staticals_data} [<module>] calculating these statistics of data.......1676432964.585389
+2023-02-14,19:49:24.909 INFO {staticals_data} [<module>] End time: 1676432964.9095924
+2023-02-14,19:49:24.910 INFO {staticals_data} [<module>] calculate statistic data 0.3242034912109375 
+2023-02-14,19:51:26.040 INFO {staticals_data} [<module>] calculating these statistics of data.......1676433086.0394099
+2023-02-14,19:51:26.352 INFO {staticals_data} [<module>] End time: 1676433086.3523352
+2023-02-14,19:51:26.352 INFO {staticals_data} [<module>] calculate statistic data 0.3129253387451172 
