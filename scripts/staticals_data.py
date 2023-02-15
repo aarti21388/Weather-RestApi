@@ -1,4 +1,18 @@
 from django.db import connections
+import logging,time
+
+logging.basicConfig(filename='log/ingestion.log',
+                  level=logging.INFO, 
+     format='%(asctime)s.%(msecs)03d %(levelname)s {%(module)s} [%(funcName)s] %(message)s',
+                    datefmt='%Y-%m-%d,%H:%M:%S')
+logger = logging.getLogger("statistics")
+
+start_time = time.time()
+logger.info(f"calculating these statistics of data.......{start_time}")
+
+def run():
+        print ("I am a script for calculating statistic data")
+
 
 def run():
         print ("I am a script for calculating statistic data")
@@ -14,3 +28,12 @@ from ( select * from weather where maximum_temperature<> -9999 and minimum_tempe
                 order by station''')
 
     connections['LOANS'].commit()
+end_time = time.time()
+
+total_time = (end_time - start_time)
+
+
+logger.info(f"End time: {end_time}")
+logger.info(f"calculate statistic data {total_time} ")
+
+
